@@ -3,8 +3,9 @@
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: personDB
+#      host: localhost
+#      port: 27017
+#      database: personDB
+      uri: mongodb://localhost:27017/personDB
 server:
   port: 9000
